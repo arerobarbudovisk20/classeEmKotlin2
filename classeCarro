@@ -1,0 +1,38 @@
+class Carro{
+
+    var placa:String = ""
+    var titular:String =""
+    var numeroSerie = 0
+
+
+
+}
+
+
+fun main() {
+
+    val carroA = Carro()
+    carroA.placa = "JUY-7645"
+    carroA.titular = "JOÃO"
+    carroA.numeroSerie = 100
+
+
+    println("--- CARRO A ---")
+    println("Placa: ${carroA.placa}")
+    println("Titular: ${carroA.titular}")
+    println("N/S: ${carroA.numeroSerie}")
+    println()
+
+    carroA.placa ="KYH-4567"
+    carroA.titular = "FELIPE"
+    carroA.numeroSerie = 101
+
+    println("--- CARRO B ---")
+    println("Placa:${carroA.placa}")
+    println("Titular:${carroA.titular}")
+    println("N/S:${carroA.numeroSerie}")
+
+
+
+}
+
